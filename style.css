@@ -1,70 +1,73 @@
 .filha {
-  width: 250px;
-  height: 250px;
-  border-radius: 20vh;
-  background-color: orange;
-  text-align: center;
-  margin: 0 auto;
-}
-body {
-  text-align: center;
-}
-.btn:focus,
-.btn::-moz-focus-inner {
-  outline: none;
-  border: none;
-}
-.btn {
-  font-family: arial;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-  display: inline-block;
-  text-decoration: none;
-  width: 65px;
-}
-.btn-green {
-  background: green;
-  color: #fff;
-  box-shadow: 0 5px 0 #006000;
-}
-.btn-green:hover {
-  background: #006000;
-  box-shadow: 0 5px 0 #003f00;
-}
-.btn-red {
-  background: red;
-  color: #fff;
-  box-shadow: 0 5px 0 #d20000;
-}
-.btn-red:hover {
-  background: #d20000;
-  box-shadow: 0 5px 0 #b00000;
-}
-.btn-green:active,
-.btn-red:active {
-  position: relative;
-  top: 5px;
-  box-shadow: none;
-}
-.filha2{
+    width: 250px;
+    height: 250px;
+    border-radius: 20vh;
+    background-color: orange;
+    text-align: center;
     margin: 0 auto;
-    width: 300px;
-    color: lightseagreen ;
-    text-align: left;
-    font-size: larger;
-    justify-content: center;
-}
-#sim{
-    background-color: greenyellow;
-    width: 1px;
-    height: 20px;
-}
-#nao{
-    background-color: rgb(248, 53, 53);
-    width: 1px;
-    height: 20px;
+  }
+  body {
+    text-align: center;
+  }
+  .btn:focus,
+  .btn::-moz-focus-inner {
+    outline: none;
+    border: none;
+  }
+  .btn {
+    font-family: arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    width: 65px;
+  }
+  .btn-green {
+    background: green;
+    color: #fff;
+    box-shadow: 0 5px 0 #006000;
+  }
+  .btn-green:hover {
+    background: #006000;
+    box-shadow: 0 5px 0 #003f00;
+  }
+  .btn-red {
+    background: red;
+    color: #fff;
+    box-shadow: 0 5px 0 #d20000;
+  }
+  .btn-red:hover {
+    background: #d20000;
+    box-shadow: 0 5px 0 #b00000;
+  }
+  .btn-green:active,
+  .btn-red:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+  }
+  .filha2{
+      margin: 0 auto;
+      width: 100px;
+      color: lightseagreen ;
+      text-align: left;
+      font-size: larger;
+      justify-content: center;
+  }
+  #sim{
+      background-color: greenyellow;
+      width: 0px;
+      height: 20px;
+  }
+  #nao{
+      background-color: rgb(248, 53, 53);
+      width: 0px;
+      height: 20px;
+  }
+fieldset{
+  border: 0px solid white;
 }
